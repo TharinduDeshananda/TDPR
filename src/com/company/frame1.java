@@ -25,6 +25,9 @@ public class frame1 extends JFrame{
                 JTextField twordup=new JTextField();
                 JTextField trewordup=new JTextField();
 
+
+
+
                 lin.setBounds(50,30,50,30);
                 lname.setBounds(50,70,100,30);
                 tnamein.setBounds(150,70,200,30);
@@ -36,8 +39,13 @@ public class frame1 extends JFrame{
                 tnameup.setBounds(150,330,200,30);
                 lwordup.setBounds(50,380,100,30);
                 twordup.setBounds(150,380,200,30);
-                bup.setBounds(400,380,100,30);
+                bup.setBounds(400,430,100,30);
+                lreword.setBounds(50,430,100,30);
+                trewordup.setBounds(150,430,200,30);
 
+
+                this.add(lreword);
+                this.add(trewordup);
                 this.add(bup);
                 this.add(twordup);
                 this.add(lwordup);
@@ -52,6 +60,7 @@ public class frame1 extends JFrame{
                 this.add(tnamein);
                 this.setSize(640,600);
                 this.setLayout(null);
+                this.setResizable(false);
                 this.setVisible(true);
 
 

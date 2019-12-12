@@ -7,5 +7,6 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         frame1 f1=new frame1();
+        frame2 f2=new frame2();
     }
 }
