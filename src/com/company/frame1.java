@@ -2,6 +2,8 @@ package com.company;
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
+import java.sql.*;
+
 public class frame1 extends JFrame{
     frame1(){
         try{
@@ -42,6 +44,30 @@ public class frame1 extends JFrame{
                 bup.setBounds(400,430,100,30);
                 lreword.setBounds(50,430,100,30);
                 trewordup.setBounds(150,430,200,30);
+
+
+
+                bin.addActionListener(new ActionListener(){
+                        public void actionPerformed(ActionEvent e){
+                                
+
+                        }
+
+
+                });
+
+                bup.addActionListener(new ActionListener(){
+
+                   public void actionPerformed(ActionEvent e){
+
+
+                   }
+
+                });
+
+
+
+
 
 
                 this.add(lreword);
